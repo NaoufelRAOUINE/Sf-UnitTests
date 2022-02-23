@@ -2,14 +2,16 @@
 
 namespace App\Tests\Repository;
 
+
 use App\Repository\UserRepository;
 use Symfony\Bundle\FrameworkBundle\Test\KernelTestCase;
 
 class UserRepositoryTest extends KernelTestCase
 {
-    public function FutestCountnctionName()
+    
+    public function testCount()
     {
-        $kernel = self::bootKernel();
+        self::bootKernel();
         $users = self::$container->get(UserRepository::class)->count([]);
         $this->assertEquals(10, $users);
     }

@@ -46,13 +46,17 @@
         "symfony/phpunit-bridge": "^6.0",
         "symfony/stopwatch": "4.3.*",
         "symfony/web-profiler-bundle": "4.3.*",
-        "symfony/web-server-bundle": "4.3.*"
+        "symfony/web-server-bundle": "4.3.*",
+        "theofidry/alice-data-fixtures": "^1.2"
     },
     "config": {
         "preferred-install": {
             "*": "dist"
         },
-        "sort-packages": true
+        "sort-packages": true,
+        "allow-plugins": {
+            "symfony/flex": true
+        }
     },
     "autoload": {
         "psr-4": {

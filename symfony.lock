@@ -106,6 +106,9 @@
     "fig/link-util": {
         "version": "1.1.2"
     },
+    "fzaninotto/faker": {
+        "version": "v1.9.2"
+    },
     "liip/test-fixtures-bundle": {
         "version": "1.10.1"
     },
@@ -114,6 +117,19 @@
     },
     "myclabs/deep-copy": {
         "version": "1.10.2"
+    },
+    "nelmio/alice": {
+        "version": "3.6",
+        "recipe": {
+            "repo": "github.com/symfony/recipes",
+            "branch": "master",
+            "version": "3.2",
+            "ref": "0b9900ece737bec7752e4155c0164639dd9b0cb0"
+        },
+        "files": [
+            "config/packages/dev/nelmio_alice.yaml",
+            "config/packages/test/nelmio_alice.yaml"
+        ]
     },
     "nikic/php-parser": {
         "version": "v4.13.2"
@@ -579,6 +595,15 @@
     },
     "symfony/yaml": {
         "version": "v4.3.11"
+    },
+    "theofidry/alice-data-fixtures": {
+        "version": "1.2",
+        "recipe": {
+            "repo": "github.com/symfony/recipes",
+            "branch": "master",
+            "version": "1.0",
+            "ref": "fe5a50faf580eb58f08ada2abe8afbd2d4941e05"
+        }
     },
     "theseer/tokenizer": {
         "version": "1.2.1"
